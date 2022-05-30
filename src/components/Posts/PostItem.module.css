@@ -1,0 +1,23 @@
+.post {
+	list-style-type: none;
+	min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    color: #b95be7;
+}
+
+.post p {
+    color: #865d9b;
+    font-size: 1.1em;
+}
+
+.postitem-wrapper {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, #ffa4ed05 1%, #ffddec 100%);
+}
+
+.date {
+    margin-top: auto;
+    opacity: .6;
+}

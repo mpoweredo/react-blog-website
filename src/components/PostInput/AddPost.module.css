@@ -1,0 +1,59 @@
+.create-post-input {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+input, textarea, button {
+    padding: .6em .8em;
+    border-radius: 5px;
+    border: transparent;
+    outline: transparent;
+    width: 100%;
+    resize: none;
+    height: 42px;
+}
+
+.create-post-input div {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+label {
+    color: #728dda;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+input, textarea {
+    font-size: 1em;
+}
+
+textarea {
+    min-height: 150px;
+}
+
+.form-wrapper {
+    margin-top: 2em;
+    width: 500px;
+    margin-bottom: 2em; 
+}
+
+button {
+    font-size: 1em;
+    height: auto;
+    font-weight: 500;
+    margin: 0;
+    color: white;
+    background-color: #728dda;
+    cursor: pointer;
+}
+
+.error {
+    color: #ff5656;
+}
+
+button:hover {
+    background-color: #6d87ce;
+}
