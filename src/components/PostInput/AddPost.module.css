@@ -57,3 +57,9 @@ button {
 button:hover {
     background-color: #6d87ce;
 }
+
+@media only screen and (max-width: 800px) {
+    .form-wrapper  {
+        width: 85vw;
+    }
+}  

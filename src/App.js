@@ -31,7 +31,9 @@ function App() {
 					date: data[key].date,
 				});
 			}
-			setPosts(loadedPosts);
+
+			setPosts(loadedPosts)
+
 		} catch (error) {
 			setError(error.message);
 		}
@@ -53,6 +55,7 @@ function App() {
 				},
 			}
 		);
+		fetchPostsHandler();
 	};
 
 	return (
